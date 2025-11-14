@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Hi+Melody&family=Meow+Script&family=Momo+Signature&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -5,8 +7,11 @@
 }
 
 body{
-    font-family:Arial, sans-serif;
-    background: #f2f4f7;
+    /* font-family:Arial, sans-serif; */
+    font-family: "Hi Melody", cursive;
+    font-weight: 800;
+    font-style: normal;
+    background: #78ff7f9d;
     padding:20px;
 }
 
@@ -37,7 +42,7 @@ body{
 }
 
 .card {
-    background: #fff;
+    background: #ffffff73;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
