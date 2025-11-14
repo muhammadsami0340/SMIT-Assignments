@@ -1,0 +1,202 @@
+body{
+    background-image: url(./Assets/vecteezy_ai-generated-vibrant-green-plant-leaves_38498179.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav{
+    /* background-color: blanchedalmond; */
+    background-color: rgb(255, 255, 255, 0.7);
+    display: flex;
+    padding: 15px;
+    margin: 20px;
+}
+
+
+
+.logo{
+    /* background-color: rgb(164, 255, 255); */
+    width: 20%;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly !important;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.list{
+    width: 60%;
+    /* background-color: rgb(255, 182, 87); */
+}
+
+/* .menu{
+   display: none;
+} */
+
+.li-icons{
+    /* display: none !important; */
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-parent{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.div-cal{
+    background-color: rgb(255, 255, 255, 0.7);
+    height:450px;
+    width: 350px;
+    margin: 0px -40px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.pon{
+    padding-top: 20px; !important
+}
+
+@media (min-width: 1200px) {
+    .div-parent{
+        gap: 0px;
+    }
+    .div-cal{
+        margin:20px 20px;
+        margin-top: 100px;
+        font-size: 25px;
+    }
+        
+}
+
+@media (min-width: 1024px) {
+    .div-parent{
+        gap: 0px;
+    }
+    .div-cal{
+        margin:20px 20px;
+        margin-top: 100px;
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    /* .menu{
+        display: block;
+    } */
+    /* ul{
+        display: none;
+    } */
+    .list{
+        width: 80%;
+        display: flex;
+        /* justify-content: right; */
+    }
+
+    .li-icons{
+        display: block  !important;
+    }
+    .li-text{
+        display: block;
+    }
+    .logo{
+        padding: 0px;
+    }
+    nav{
+        margin: 0px;
+    }
+    .div-parent{
+        gap: 0px;
+    }
+    .div-cal{
+        margin:0px 20px;
+        margin-top: 100px;
+        height: 380px;
+    }
+}
+
+@media (max-width: 425px) {
+    .div-parent {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .li-text{
+        display: none;
+    }
+    
+    .div-cal {
+        width: 250px;
+        height: 300px;
+        margin: 0px 80px;
+        margin-top: 50px;
+        font-size: 19px;
+    }
+
+    .pon {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 375px) {
+    .div-parent {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .li-text{
+        display: none;
+    }
+
+    .div-cal {
+        width: 230px;
+        height: 300px;
+        margin: 0px 60px;
+        margin-top: 50px;
+        font-size: 18px;
+    }
+
+    .pon {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo-text{
+        display: none;
+    }
+    .div-parent {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .div-cal {
+        width: 200px;
+        height: 250px;
+        margin: 0px 50px;
+        margin-top: 40px;
+        font-size: 15px;
+    }
+
+    .pon {
+        font-size: 30px;
+    }
+}

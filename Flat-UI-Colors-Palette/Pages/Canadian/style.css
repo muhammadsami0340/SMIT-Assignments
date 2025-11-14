@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.HEX{
+    background-color: black;
+    height: 50px;
+    width: 450px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.HEX:hover{
+    border: 3px dotted rgb(199, 241, 45);
+    border-radius: 8px;
+    background-color: #9ddf817a;
+    color: black;
+}
+
+.Sound:hover{
+    background-color: #dae90d65;
+    border-radius: 5px;
+    color: rgb(0, 255, 64);
+}
+
+
+.Cell:hover{
+    border: 1px solid black;
+}
+
+.container{
+    display: flex;
+}
+
+.Cell{
+    height: 220px;
+    width: 400px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* COLOURS */
+.BEEKEEPER{
+    background-color: #ff9ff3;
+}
+
+.SPICED{
+    background-color: #feca57;
+}
+
+.PINK{
+    background-color: #ff6b6b;
+}
+
+.JUNE{
+    background-color: #48dbfb;
+}
+
+.COASTAL{
+    background-color: #1dd1a1;
+}
+
+.TURBO{
+    background-color: #f368e0;
+}
+
+.QUINCE{
+    background-color: #ff9f43;
+}
+
+.CARMINE{
+    background-color: #ee5253;
+}
+
+.PURE{
+    background-color: #0abde3;
+}
+
+.HINT{
+    background-color: #10ac84;
+}
+
+.MIDDLE{
+    background-color: #00d2d3;
+}
+
+.HELI{
+    background-color: #54a0ff;
+}
+
+.EXODUS{
+    background-color: #5f27cd;
+}
+
+.DEEPCOA{
+    background-color: #c8d6e5;
+}
+
+.SOARING{
+    background-color: #576574;
+}
+
+.GREENLAND{
+    background-color: #01a3a4;
+}
+
+.STEEL{
+    background-color: #2e86de;
+}
+
+.BLUR{
+    background-color: #341f97;
+}
+
+.DEEP{
+    background-color: #8395a7;
+}
+
+.WIZARD{
+    background-color: #222f3e;
+}
+
+@media screen and (max-width: 1440px) {
+    .Cell{
+    height: 340px;
+}
+
+span{
+    font-size: 30px;
+    text-align: center;
+}
+
+}
+
+@media screen and (max-width: 1024px) {
+    .Cell{
+    height: 270px;
+}
+
+span{
+    font-size: 22px;
+    text-align: center;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+    .Cell{
+    height: 198px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px;
+}
+
+
+.HEX{
+    background-color: black;
+    height: 50px;
+    width: 350px;
+}
+
+span{
+    font-size: 15px;
+    text-align: center;
+}
+
+}
+
+@media screen and (max-width: 425px) {
+    nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.Cell{
+    height: 165px;
+}
+
+
+.HEX{
+    
+    background-color: black;
+    height: 35px;
+    width: 250px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+span{
+    display: none;
+}
+
+}
+
+@media screen and (max-width: 375px) {
+    nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.Cell{
+    height: 135px;
+}
+
+
+.HEX{
+    
+    background-color: black;
+    height: 30px;
+    width: 180px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+span{
+    display: none;
+}
+
+}
+
+@media screen and (max-width: 320px) {
+    nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.Cell{
+    height: 115px;
+}
+
+
+.HEX{
+    
+    background-color: black;
+    height: 30px;
+    width: 180px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+span{
+    display: none;
+}
+
+}
